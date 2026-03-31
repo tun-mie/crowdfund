@@ -253,3 +253,70 @@ body{
   background:#ccc;
   cursor:not-allowed;
 }
+
+@media (max-width: 768px) {
+  .project-card {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+
+  .project-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .project-actions button {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .stats div {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+  }
+
+  .stats div:last-child {
+    border-bottom: none;
+  }
+
+  .progress-bar {
+    margin-top: 1rem;
+  }
+
+   .reward-card {
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .reward-card button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+   h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .logo-circle {
+    margin: 0 auto;
+    transform: translateY(-50%);
+  }
+}
