@@ -254,66 +254,105 @@ body{
   cursor:not-allowed;
 }
 
-@media (max-width: 768px) {
-  .project-card {
-    padding: 1.5rem;
-    border-radius: 12px;
+@media (max-width: 768px){
+
+  .hero{
+    background: url('images/image-hero-mobile.jpg') center/cover no-repeat;
+    height: 300px;
   }
 
-  .project-actions {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 1rem;
-  }
-
-  .project-actions button {
+  .nav{
     width: 100%;
-    max-width: 250px;
+    padding: 0 20px;
+    left: 0;
+    transform: none;
+    justify-content: space-between;
   }
 
-  .stats {
+  .nav ul{
+    display: none;
+  }
+
+  .container{
+    width: 90%;
+    margin: -80px auto 60px;
+  }
+
+  .card{
+    padding: 30px 20px;
+  }
+
+  .logo-circle{
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .project{
+    padding-top: 40px;
+  }
+
+  .project h2{
+    font-size: 20px;
+  }
+
+  .project p{
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .actions{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .actions .btn{
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .secondary{
+    padding: 12px 18px;
+  }
+
+  .stats{
     flex-direction: column;
     text-align: center;
-    gap: 1.5rem;
+    gap: 25px;
   }
 
-  .stats div {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 1rem;
+  .stat{
+    padding: 0;
+    border: none;
   }
 
-  .stats div:last-child {
-    border-bottom: none;
+  .stat:not(:last-child){
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
   }
 
-  .progress-bar {
-    margin-top: 1rem;
+  .reward-header{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
 
-   .reward-card {
+  .reward-footer{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .select{
     width: 100%;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    text-align: center;
   }
 
-  .reward-card button {
-    width: 100%;
-    margin-top: 1rem;
-  }
-
-   h1 {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  p {
-    font-size: 0.9rem;
-  }
+}
 
   .logo-circle {
     margin: 0 auto;
