@@ -66,15 +66,25 @@ body{
   margin: -120px auto 60px;
 }
 
-.logo-circle {
+.logo-circle{
   position: absolute;
-  bottom: 67%;
   left: 50%;
   transform: translateX(-50%);
-  background: black;
   width: 56px;
   height: 56px;
   border-radius: 50%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  top: -35px; 
+}
+
+.logo-circle img{
+  width: 30px;
+  height: 30px;
+  display: block;
 }
 
 .card{
