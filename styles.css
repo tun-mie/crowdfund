@@ -80,8 +80,9 @@ body{
 }
 
 .logo-circle img{
-  width: 30px;
-  height: 30px;
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
   display: block;
 }
 
