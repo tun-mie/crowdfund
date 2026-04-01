@@ -83,7 +83,6 @@ body{
   width: 60%;
   height: 60%;
   object-fit: contain;
-  display: block;
 }
 
 .card{
