@@ -287,10 +287,24 @@ body{
     top: -28px;
     left: 50%;
     transform: translateX(-50%);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: black;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-circle img{
+  width: 25px;
+  height: 25px;
   }
 
   .project{
-    padding-top: 40px;
+   position: relative;
+   overflow: visible;
   }
 
   .project h2{
@@ -352,10 +366,4 @@ body{
     text-align: center;
   }
 
-}
-
-  .logo-circle {
-    margin: 0 auto;
-    transform: translateY(-50%);
-  }
 }
