@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     bookmarkBtn.classList.toggle("active");
 
     if (bookmarkBtn.classList.contains("active")) {
-      bookmarkBtn.innerHTML = "✅ Bookmarked";
+      bookmarkBtn.innerHTML = " Bookmarked";
     } else {
       bookmarkBtn.innerHTML = `
         <img src="images/icon-bookmark.svg" alt="bmk">
